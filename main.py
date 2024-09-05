@@ -172,7 +172,7 @@ def add_user(message):
 
                 # Create copies of bgmi,sahil files for the new user
                 user_bgmi_path = f'bgmi{user_id}'              
-                user_sahil_path = f'venom{user_id}'
+                user_venom_path = f'venom{user_id}'
                 shutil.copy(ORIGINAL_BGMI_PATH, user_bgmi_path)
                 shutil.copy(ORIGINAL_VENOM_PATH, user_venom_path)
 
