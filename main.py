@@ -256,7 +256,7 @@ def show_user_id(message):
 def start_attack(user_id, target, port, duration):
     attack_id = f"{user_id} {target} {port}"
     bgmi_file = f"bgmi{user_id}"
-    sahil_file = f"venom{user_id}"
+    venom_file = f"venom{user_id}"
     user = bot.get_chat(user_id)
     username = f"@{user.username}" if user.username else f"UserID: {user_id}"
     log_command(user_id, target, port, duration)
